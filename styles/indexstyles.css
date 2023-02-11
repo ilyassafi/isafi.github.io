@@ -1,0 +1,103 @@
+/*ITIS 3135 Activity 2 css file*/
+
+/*styling for the table goes here*/
+header{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 30px 10%;
+}
+.title{
+	margin-right: auto;
+}
+.nav{
+	list-style: none;
+}
+.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 20px;
+	
+}
+body
+{
+	
+	background-color: #fad8d6;
+	color: #20a39e;
+}
+
+main 
+{
+	width: 750px;
+	margin: auto;
+}
+
+footer 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+
+thead
+{
+	background-color: rgba(128, 0, 21, 0.756);
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(even) td
+{
+	background-color: rgb(238, 144, 208);
+}
+
+.tfoot
+{
+	background-color: rgb(144, 238, 200);
+}
+figure {
+	display: inline-block;
+	margin: 28px;
+
+}
+figure img {
+	vertical-align: top;
+}
+figcaption{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #20a39e;
+}
+a:hover{
+	color: red;
+}

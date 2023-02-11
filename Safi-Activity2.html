@@ -1,0 +1,231 @@
+<html lang="en">
+	<head>
+		<title>Employee table</title>
+		<meta name="description" content="3135 Activity">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles/Safi_table.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Ilyas Safi Enterprise</h1>
+			
+				<nav>
+					<a href = "index.html">Home</a>
+					||
+					<a href = "Safi-Activity2.html">Tables</a>
+					|| 
+					<a href = "Safi_forms.html">Forms</a>
+					||
+					<a href = "Website Evaluation.html">Website Evaluation</a>
+					|| 
+					<a href = "ilyassafienterprise.com/index.html">ilyas safi Enterprise</a>
+					
+				   
+				</nav>
+			
+		</header>
+		<main>
+
+
+		<h1>Assignment 2- HTML Tables</h1>
+		<h2>My Tabular Data</h2>
+	
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>E-mail</th>
+				<th class="right">Years of Service</th><br>
+			</tr>
+		</thead>
+		<tbody>
+				<tr>
+					<td>John Murach</td>
+					<td>joelmurach@yahoo.com</td>
+					<td class="right">20</td><br>
+				</tr>
+				<tr>
+					<td>Anna Boehm</td>
+					<td>anne@murach.com</td>
+					<td class="right">33</td><br>
+				</tr>
+				<tr>
+					<td>Zak Ruvalcaba</td>
+					<td>zak@modulemedia.com</td>
+					<td class="right">5</td><br>
+				</tr>
+				<tr>
+					<td>Judy Taylor</td>
+					<td>judy@murach.com</td>
+					<td class="right">3</td><br>
+				</tr>
+				<tr>
+					<td>Cyndi Vasquez</td>
+					<td>cyndi@murach.com</td>
+					<td class="right">10</td><br>
+				</tr>
+				<tr>
+					<td>Kelly Slivkoff</td>
+					<td>kelly@murach.com</td>
+					<td class="right">25</td><br>
+				</tr>
+				<tr>
+					<td>Juliette Baylon</td>
+					<td>juliette@murach.com</td>
+					<td class="right">4</td><br>
+				</tr>
+		</tbody>
+		
+
+		<h3>Employee Data in Simple Table</h3>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>E-mail</th>
+					<th class="right">Years of Service</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John Murach</td>
+					<td>joelmurach@yahoo.com</td>
+					<td class="right">20</td>
+				</tr>
+				<tr>
+					<td>Anna Boehm</td>
+					<td>anne@murach.com</td>
+					<td class="right">33</td>
+				</tr>
+				<tr>
+					<td>Zak Ruvalcaba</td>
+					<td>zak@modulemedia.com</td>
+					<td class="right">5</td>
+				</tr>
+				<tr>
+					<td>Judy Taylor</td>
+					<td>judy@murach.com</td>
+					<td class="right">3</td>
+				</tr>
+				<tr>
+					<td>Cyndi Vasquez</td>
+					<td>cyndi@murach.com</td>
+					<td class="right">10</td>
+				</tr>
+				<tr>
+					<td>Kelly Slivkoff</td>
+					<td>kelly@murach.com</td>
+					<td class="right">25</td>
+				</tr>
+				<tr>
+					<td>Juliette Baylon</td>
+					<td>juliette@murach.com</td>
+					<td class="right">4</td>
+				</tr>
+			</tbody>
+		</table>
+	
+
+
+		<h4>Employee Data in Complex Table</h4>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Category</th>
+						<th>Name</th>
+						<th>E-mail</th>
+						<th class="right">Years of Service</th>
+						<th>Estimated Salary per Month</th>
+					</tr>
+				</thead>
+		<tbody>
+			<tr>
+				<th rowspan="2">CEO</th>
+				<td>John Murach</td>
+				<td>joelmurach@yahoo.com</td>
+				<td class="right">20</td>
+				<td>$10,000</td>
+			</tr>
+			<tr>
+				<td>Anna Boehm</td>
+				<td>anne@murach.com</td>
+				<td class="right">33</td>
+				<td>$12,000</td>
+			</tr>
+			<tr>
+				<th rowspan="3">Manager</th>
+				<td>Zak Ruvalcaba</td>
+				<td>zak@modulemedia.com</td>
+				<td class="right">5</td>
+				<td>$5,000</td>
+			</tr>
+			<tr>
+				<td>Judy Taylor</td>
+				<td>judy@murach.com</td>
+				<td class="right">3</td>
+				<td>$3,000</td>
+			</tr>
+			<tr>
+				<td>Cyndi Vasquez</td>
+				<td>cyndi@murach.com</td>
+				<td class="right">10</td>
+				<td>$7,000</td>
+			</tr>
+			<tr>
+				<th rowspan="2">Employee</th>
+				<td>Kelly Slivkoff</td>
+				<td>kelly@murach.com</td>
+				<td class="right">25</td>
+				<td>$12,000</td>
+			</tr>
+			<tr>
+				<td>Juliette Baylon</td>
+				<td>juliette@murach.com</td>
+				<td class="right">4</td>
+				<td>$3,000</td>
+			</tr>
+		</tbody>
+        <tfoot class = "tfoot">
+            <tr>
+                <th class="right" colspan="3">Total Years of Service</th>
+                <th class="right">100</th>
+                <th class="right">Total Estimated Salary Expenditure = $52,000</th>
+            </tr>
+        </tfoot>
+	</table>
+	<footer>
+        <nav>
+            <a href="https://webpages.uncc.edu/isafi/itis3135/">Charlotte.edu</a>
+            ||
+            <a href="https://github.com/ilyassafi/">Github</a>
+            ||
+            <a href="https://ilyasssafi.github.io/">Github.io</a>
+            ||
+            <a href="https://www.codecademy.com/profiles/ilyasSafi9849442620">Codecadey </a>
+            ||
+            <a href="https://www.freecodecamp.org/ilyassafi">freeCodeCamp</a>
+            
+        </nav>   
+        <p>Ilyas Safi's Intelligent Impala</p> 
+        <p>
+            
+           
+                <a href="https://validator.w3.org/check?uri=referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png"
+                        alt="Valid HTML!" />
+                </a>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="https://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                </a>
+        
+            
+        </p>
+        
+    </footer>
+	</body>
+</html>

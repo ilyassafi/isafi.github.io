@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Ilyas Safi Enterprise</title>
+		<meta name="description" content="3135 Activity">
+		<meta charset="UTF-8">
+		<link href="styles/Safi_forms.css" rel="stylesheet" >
+	</head>
+
+	<body>
+		<header>
+			<h1>Ilyas Safi Enterprise</h1>
+			
+				<nav>
+					<a href = "index.html">Home</a>
+					||
+					<a href = "Safi-Activity2.html">Table</Table></a>
+					|| 
+					<a href = "Safi_forms.html">Form</Form></a>
+					
+				   
+				</nav>
+			
+		</header>
+		
+		<main>
+
+			<p>We are a company that provides all types of gemstones like Tourmaline, Emerald, Topaz. If you want any type of gemstones please fill out information below:
+			</p>
+			<form action="#">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" size="30" required placeholder="Enter your name">
+				<br><br>
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" size="30" required placeholder="Enter your phone number">
+				<br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" size="30" required placeholder="Enter your email">
+				<br><br>
+				<label for="checkboxes">Choose your building type:</label>
+				<br>
+				<input type="checkbox" id="checkbox1" name="checkboxes" value="Tourmaline">Tourmaline
+				<br>
+				<input type="checkbox" id="checkbox2" name="checkboxes" value="Ruby">Ruby
+				<br>
+				<input type="checkbox" id="checkbox3" name="checkboxes" value="Topaz">Topaz
+				<br><br>
+				<label for="radio">Choose your favourite building color:</label>
+				<br>
+				<input type="radio" id="red" name="color" value="Red">Red
+				<br>
+				<input type="radio" id="blue" name="color" value="Blue">Blue
+				<br>
+				<input type="radio" id="green" name="color" value="Green">Green
+				<br><br>
+				<label for="select">Select design style:</label>
+				<br>
+				<select id="select" name="animal">
+				  <option value="">Select</option>
+				  <option value="Latidary">Latidary</option>
+				  <option value="Engraved">Engraved</option>
+				  <option value="futuristic">Futuristic</option>
+				</select>
+				<br><br>
+				<input type="reset" value="Reset">
+				<input type="submit" value="Submit">
+			  </form>
+
+
+			  
+
+			  <h4>Location</h4>
+			<p>Ilyas Safi Enterprise is located at<br>
+			209 Grindstone Dr<br>
+			Apex, NC 27502.<br>
+			See <a id="locationlink" href="https://maps.google.com/">Google Maps</a> for directions.</p>
+
+		</main>
+
+		<footer>
+			<p>Copyright © Ilyas Safi Enterprise<br>
+			Apex@IlyasSafiEnterprise.com<br>
+			Ilyas Safi Enterprise LLC</p>
+			<a id="validation_link_html" href="https://validator.w3.org/check?uri=referer"><img
+				src="images/button_validation_html5.png" width="88" height="31" alt="Validate webpage HTML."></a>
+		<a id="validation_link_css" href="https://jigsaw.w3.org/css-validator/check/referer"><img
+				src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage CSS."></a>
+		<script>
+			document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+			document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+		</script>
+		</footer>
+
+	</body>
+</html>

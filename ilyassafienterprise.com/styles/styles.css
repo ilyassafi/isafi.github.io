@@ -1,0 +1,190 @@
+/*ITIS 3135 Activity 2 css file*/
+
+/*styling for the table goes here*/
+header{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 30px 10%;
+	background-image: url(../images/rick-rothenberg-Cx7fsWrgb_g-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fbf9ff;
+	
+}
+
+.title{
+	margin-right: auto;
+}
+.nav{
+	list-style: none;
+}
+.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 20px;
+	
+}
+body
+{
+	
+	color: #20a39e;
+}
+
+main 
+{
+	width: 750px;
+	margin: auto;
+}
+
+footer 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+
+thead
+{
+	background-color: rgba(128, 0, 21, 0.756);
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(even) td
+{
+	background-color: rgb(238, 144, 208);
+}
+
+.tfoot
+{
+	background-color: rgb(144, 238, 200);
+}
+figure {
+	display: inline-block;
+	margin: 28px;
+
+}
+figure img {
+	vertical-align: top;
+}
+figcaption{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #20a39e;
+}
+a:hover{
+	color: #fbf9ff;
+}
+.logo{
+	width: 10%;
+	height: 10%;
+}
+main h2 {
+	text-align: center;
+}
+.contact_info {
+	background: rgb(4, 10, 12);
+	width: 100%;
+	padding: 100px 0px;
+  }
+  
+  .title h2 {
+	color: bisque;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+  }
+  
+  .card h4 {
+	text-align: center;
+  
+  }
+  
+  .card h6 {
+	color: bisque;
+	text-align: center;
+  }
+  
+  .description {
+	color: bisque;
+	text-align: center;
+  }
+  
+  
+  .box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+	justify-content: center;
+  }
+  
+  .card {
+	height: 250px;
+	width: 245px;
+	padding: 20px 35px;
+	background-color: #191919;
+	border-radius: 5px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+  }
+  
+  .footer {
+	width: 100%;
+	height: 290px;
+	background: #262626ff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	color: #20a39e;;
+  }
+  
+  .footer p {
+	
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 25px;
+  }
+  main h2{
+	font-size: 50px;
+  }
+  main ul li  {
+	font-size: 15px;
+  }
+  main h4 {
+	font-size: 25px;
+  }

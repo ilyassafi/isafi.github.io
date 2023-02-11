@@ -1,0 +1,87 @@
+.com{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.com img{
+width: 50%;
+}
+.com h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+header{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 30px 10%;
+}
+.title{
+	margin-right: auto;
+}
+.nav{
+	list-style: none;
+}
+.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 20px;
+	
+}
+body
+{
+	
+	background-color: #ecebf3;
+	color: #20a39e;
+}
+.function{
+    align-items: center;
+    text-align: center;
+    color: #9c3848;
+    
+}
+.message{
+    color: black;
+}
+footer 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+figure {
+	display: inline-block;
+	margin: 28px;
+
+}
+figure img {
+	vertical-align: top;
+}
+figcaption{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #20a39e;
+}
+a:hover{
+	color: #9c3848;
+}

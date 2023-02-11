@@ -1,0 +1,56 @@
+/*ITIS 3135 Activity 2 css file*/
+
+/*styling for the table goes here*/
+header, footer{
+	text-align: center;
+}
+body
+{
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: azure;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin: 20px;
+	text-align: center;
+}
+
+thead
+{
+	background-color: rgba(128, 0, 21, 0.756);
+	text-align: center;
+
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(even) td
+{
+	background-color: rgb(238, 144, 208);
+	align-content: center;
+	
+}
+
+.tfoot
+{
+	background-color: rgb(144, 238, 200);
+}
+h3 table thead tr {
+	text-align: center;
+}
