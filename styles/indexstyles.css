@@ -1,12 +1,59 @@
 /*ITIS 3135 Activity 2 css file*/
 
 /*styling for the table goes here*/
+*{
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	
+	background-color: #fad8d6;
+	color: #20a39e;
+	margin: 0 auto;
+}
+main{
+
+
+	text-align: center;
+	justify-content: center;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 10rem;
+	padding-top: 10rem;
+	max-width: 700px;
+
+
+}
+.com{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.com img{
+width: 50%;
+}
+.com h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
 header{
 	text-align: center;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 	padding: 30px 10%;
+}
+h2 {
+	text-align: center;
 }
 .title{
 	margin-right: auto;
@@ -20,34 +67,65 @@ header{
 	padding: 0px 20px;
 	
 }
-body
-{
+
+.headerSiteLinks {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #262626ff;
+	border-bottom: 3px #f24236ff solid;
+	padding-right: 15px;
+  }
+  
+  .headerSiteLinks-links {
+	display: flex;
+  }
+  
+  .title {
+	font-size: medium;
+	padding: 0.8rem;
+  }
+  
+  .navbar-links ul {
+	display: flex;
+  
+  }
+  
+  .navbar-links li {
+	list-style: none;
+  }
+  
+  .navbar-links li a {
+	display: block;
+	text-decoration: none;
+	padding: 0px 5px;
+  }
+
+
+  footer {
 	
-	background-color: #fad8d6;
-	color: #20a39e;
-}
+	background-color: #2E2E3A;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	position: static;
+	bottom: 0;
+	padding: 10px 10px 0px 10px;
+	width: 100%;
+	height: 250px;
+  }
 
-main 
-{
-	width: 750px;
-	margin: auto;
-}
-
-footer 
+/* .footer 
 {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-}
-
-.footer 
-{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
-}
+	bottom: 0;
+	position: static;
+	height: 250px;
+} */
 
 table
 {
@@ -74,11 +152,6 @@ th, td
 	text-align: right;
 }
 
-tbody tr:nth-child(even) td
-{
-	background-color: rgb(238, 144, 208);
-}
-
 .tfoot
 {
 	background-color: rgb(144, 238, 200);
@@ -101,3 +174,140 @@ a{
 a:hover{
 	color: red;
 }
+input {
+	margin: 10px 0 0 0;
+	width: 100%;
+	min-height: 2em;
+}
+
+  
+ 
+  .container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 75px 0;
+  }
+  
+  .calculator {
+	background: #262626ff;
+	padding: 20px;
+	border-radius: 5px;
+  }
+  
+  .display {
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+	padding: 16px 8px;
+	font-size: 25px;
+	color: white;
+	background: #262626ff;
+	border-color: white;
+  }
+  
+  .buttons tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  
+  .button {
+	line-height: 100px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+	background: none;
+	color: white;
+  }
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+	left: 0;
+	border-radius: 3px 0 0 3px;
+  }
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+  
+  
+  
+ 

@@ -3,26 +3,18 @@
 		<title>Employee table</title>
 		<meta name="description" content="3135 Activity">
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="styles/Safi_table.css">
+		<title>Ilyas Safi's Intelligent Impala </title>
+		<link href="styles/indexstyles.css" rel="stylesheet">
+		<script src="scripts/defaultscripts.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 	</head>
 	<body>
 
 		<header>
-			<h1>Ilyas Safi Enterprise</h1>
-			
-				<nav>
-					<a href = "index.html">Home</a>
-					||
-					<a href = "Safi-Activity2.html">Tables</a>
-					|| 
-					<a href = "Safi_forms.html">Forms</a>
-					||
-					<a href = "Website Evaluation.html">Website Evaluation</a>
-					|| 
-					<a href = "ilyassafienterprise.com/index.html">ilyas safi Enterprise</a>
-					
-				   
-				</nav>
+			<h1 class="title"> ITIS-3135 | Ilyas Safi's Intelligent Impala | Tables </h1>
+			<nav id="headerSiteLinks">
+				<p id="mainlinks"></p>
+			</nav>
 			
 		</header>
 		<main>
@@ -195,36 +187,20 @@
             </tr>
         </tfoot>
 	</table>
+	</main>
 	<footer>
-        <nav>
-            <a href="https://webpages.uncc.edu/isafi/itis3135/">Charlotte.edu</a>
-            ||
-            <a href="https://github.com/ilyassafi/">Github</a>
-            ||
-            <a href="https://ilyasssafi.github.io/">Github.io</a>
-            ||
-            <a href="https://www.codecademy.com/profiles/ilyasSafi9849442620">Codecadey </a>
-            ||
-            <a href="https://www.freecodecamp.org/ilyassafi">freeCodeCamp</a>
-            
-        </nav>   
-        <p>Ilyas Safi's Intelligent Impala</p> 
-        <p>
-            
-           
-                <a href="https://validator.w3.org/check?uri=referer">
-                    <img style="border:0;width:88px;height:31px"
-                        src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png"
-                        alt="Valid HTML!" />
-                </a>
-                <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                    <img style="border:0;width:88px;height:31px"
-                        src="https://jigsaw.w3.org/css-validator/images/vcss"
-                        alt="Valid CSS!" />
-                </a>
-        
-            
-        </p>
+		<nav id="footerSiteLinks">
+			<p id="myPages"></p>
+			<p id="myCorpSite"></p>
+			<a id="validation_link_html" href="https://validator.w3.org/check?uri=referer"><img
+					src="images/button_validation_html5.png" width="88" height="31" alt="Validate webpage HTML."></a>
+			<a id="validation_link_css" href="https://jigsaw.w3.org/css-validator/check/referer"><img
+					src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage CSS."></a>
+		</nav>
+		<script>
+			document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+			document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+		</script>
         
     </footer>
 	</body>

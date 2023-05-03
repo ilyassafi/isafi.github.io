@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Afghanistan - Home</title>
+    <link rel="stylesheet" href="styles/styles.css"> <!-- Link the external CSS file -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><img src="images/pngegg.png" alt=""></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="histroy.html">History</a></li>
+          <li><a href="culture.html">Culture</a></li>
+          <li><a href="tourism.html">Tourism</a></li>
+          <li><a href="videos.html">Videos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+     <a href="#culture"><img src="images/bayan.jpeg" style="width:100%" alt="bamyan"></a>
+    
+  </div>
+  
+  <div class="mySlides fade">
+   <a href="#music"><img src="images/afghan .png" style="width:100%" alt="music">
+    </a>
+    
+  </div>
+  
+  <div class="mySlides fade">
+    <a href="#dance"><img src="images/attan.webp" styles="width:100%" alt="attan"></a>
+    
+    
+  </div>
+  <div class="mySlides fade">
+    <a href="#clothe"><img src="images/Afghan_Schoolchildren_in_Kabul.jpg" styles="width:100%" alt="cloth"></a>
+    
+    
+  </div>
+  <div class="mySlides fade">
+    <a href="#food"> <img src="images/most-popular-afghan-food.jpg" styles="width:100%" alt="food"></a>
+   
+    
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+  <table class="nix">
+    <tbody id="culture">
+    <tr>
+    <td colspan="3">&nbsp;</td>
+    </tr>
+    <td colspan="2" class="hist-txt">
+    <h2>Afghan Culture</h2>
+    <br>
+    <p>Afghanistan's long history of different civilizations and ethnic groups has influenced its rich and diverse culture. Islam, which is the predominant religion in Afghanistan, has a significant influence on Afghan culture and helps to shape its social norms, traditions, and values. Afghans frequently welcome guests with warmth and generosity because family and community are values that are highly valued in their culture. Afghan culture places a high value on traditional arts and crafts like calligraphy, carpet weaving, and pottery. Afghans also have a special place in their hearts for music and dance. Additionally, rice, lamb, and spices are common ingredients in Afghan cuisine, which is renowned for its mouthwatering flavors. Despite Afghanistan's difficulties and conflicts</p>
+    </tbody>
+
+    <tbody id="music">
+      <tr>
+      <td colspan="3">&nbsp;</td>
+      </tr>
+      <td colspan="2" class="hist-txt">
+      <h2>Afghan Music</h2>
+      <br>
+      <p>Afghan music is a vibrant and diverse form of artistic expression that reflects the country's rich cultural heritage. Music has been an integral part of Afghan culture for centuries, with its roots in traditional folk and classical genres. Afghan music often features soulful vocals, intricate melodies, and the use of traditional instruments such as the rubab, sarod, tabla, and harmonium. Afghan music encompasses a wide range of themes, including love, spirituality, and social issues, and is often used to convey emotions and tell stories. Music has also been a powerful tool for resistance and resilience in times of conflict, providing comfort and inspiration to Afghan communities facing adversity. In recent years, Afghan music has also been influenced by contemporary and Western styles, resulting in a fusion of traditional and modern elements. Despite challenges and restrictions in certain periods of Afghanistan's history, Afghan music continues to thrive as a cherished art form, bringing joy and meaning to the lives of Afghans both in the country and in diaspora communities around the world.</p>
+      </tbody>
+
+      <tbody id="dance">
+        <tr>
+        <td colspan="3">&nbsp;</td>
+        </tr>
+        <td colspan="2" class="hist-txt">
+        <h2>Afghan Dance</h2>
+        <br>
+        <p>Afghan dance encompasses a rich tapestry of traditional and folk styles that are deeply ingrained in the country's cultural fabric. One popular form is the Attan, considered Afghanistan's national dance, where dancers come together in a circular formation, clad in vibrant attire, and move to the rhythm of live music and drums. The Attan is known for its dynamic and spirited performances, evoking joy and unity. Other traditional Afghan dances, such as the Logari, Atan, and regional dances, reflect the diverse ethnic communities and regions of Afghanistan, showcasing their unique movements and expressions. In recent years, Afghan dance has also evolved with contemporary influences, blending traditional and modern elements. Despite challenges, Afghan dance remains a cherished art form, representing the resilience and richness of Afghan culture.</p>
+        </tbody>
+
+        <tbody id="clothe">
+          <tr>
+          <td colspan="3">&nbsp;</td>
+          </tr>
+          <td colspan="2" class="hist-txt">
+          <h2>Afghan Clothes</h2>
+          <br>
+          <p>Afghanistan's national clothing is deeply rooted in its history, culture, and climate. Traditional Afghan attire varies depending on the region and ethnic group, but commonly includes loose and flowing garments that are both functional and stylish. Men often wear a long tunic known as a "perahan," paired with baggy trousers called "shalwar," and a waistcoat called a "waistcoat" or "vest." Women typically wear a long, loose dress called a "kameez" or "firaq," often adorned with intricate embroidery and bright colors, along with a matching scarf called a "dupatta" to cover their heads. Traditional Afghan clothing is made from natural fabrics such as cotton or silk, reflecting the practical needs and cultural preferences of the Afghan people. Despite the influence of modern fashion, traditional Afghan clothing remains an important symbol of Afghan identity, pride, and cultural heritage.</p>
+          </tbody>
+
+          <tbody id="food">
+            <tr>
+            <td colspan="3">&nbsp;</td>
+            </tr>
+            <td colspan="2" class="hist-txt">
+            <h2>Afghan Food</h2>
+            <br>
+            <p>Afghan cuisine is a rich tapestry of flavors, influenced by the country's geography, history, and diverse ethnic communities. Afghan food is known for its hearty and aromatic dishes, often featuring a blend of spices that create a unique and tantalizing taste. Rice is a staple in Afghan cuisine, and is typically served with flavorful meat dishes such as kababs (grilled meat skewers), qorma (meat stew), and pilaf (rice cooked with meat and vegetables). Afghan cuisine also includes a wide array of breads, such as naan and bolani (filled flatbread), which are often served with savory dips and sauces. Vegetables are also an important component of Afghan food, with dishes like sabzi (spinach), aush (noodle soup with vegetables), and kofta (meatballs with vegetables) being popular choices. Additionally, dairy products like yogurt and cheese are commonly used in Afghan cuisine. Afghan food is often enjoyed communally, with meals being a time for families and friends to come together and share delicious dishes. The hospitality of Afghan culture is also reflected in its food, with guests being treated with utmost respect and offered generous portions of delicious homemade meals. Afghan cuisine is a reflection of the country's rich culinary heritage, with its unique flavors and diverse ingredients representing the tastes and traditions of Afghanistan.</p>
+            </tbody>
+  </table>
+    </main>
+  </body>
+</html>

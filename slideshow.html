@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilyas Safi's Intelligent Impala </title>
+    <link href="styles/indexstyles.css" rel="stylesheet">
+    <script src="scripts/defaultscripts.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<a href="MyfirstProject/"></a>
+<body>
+    <header>            
+        <h1 class="title"> ITIS-3135 | Ilyas Safi's Intelligent Impala | Home </h1>
+        <nav id="headerSiteLinks">
+            <p id="mainlinks"></p>
+        </nav>
+        <!-- <nav class="nav">        
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Safi-Activity2.html">Tables</a></li>
+                <li><a href="Safi_forms.html">Forms</a></li>
+                <li><a href="Website_Evaluation.html">Website Evaluation</a></li>
+                <li><a href="../itis3135/stuff/asdmb_3434543 dsfg.html">CRAP Site</a></li>
+            </ul>
+        </nav> -->
+    </header>
+
+    <main>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/2108_afganistan_island.jpg" style="width:100%" alt="Kabul">
+  <div class="text">Kabul</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/5a3c36b5b0bcd51c198b67aa.webp" style="width:100%" alt="Kunar">
+  <div class="text">Kunar</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/download.jpeg" style="width:100%" alt="Noristan">
+  <div class="text">Noristan</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    </main>
+    <footer> 
+        <nav id="footerSiteLinks">
+                <p id="myPages"></p>
+                <p id="myCorpSite"></p>
+                <a id="validation_link_html" href="https://validator.w3.org/check?uri=referer"><img
+                        src="images/button_validation_html5.png" width="88" height="31" alt="Validate webpage HTML."></a>
+                <a id="validation_link_css" href="https://jigsaw.w3.org/css-validator/check/referer"><img
+                        src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage CSS."></a>
+            </nav>
+            <script>
+                document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+                document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+            </script>
+    </footer>
+</body>
+
+</html>

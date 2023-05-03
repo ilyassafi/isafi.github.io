@@ -1,0 +1,294 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+    color: white;
+  }
+  
+  header {
+    background: linear-gradient(to right, red, black, green);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    right: 0;
+  }
+
+  .logo img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 15%;
+    padding-right: 450px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: darkred;
+    font-size: 32px;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+     border-radius: 50%; 
+    justify-content: center;
+
+  }
+  
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .nix {
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    margin-top: 0;
+}
+.nix h2 {
+    text-align: center;
+    color: darkgreen;
+}
+
+table {
+    border-collapse: collapse;
+    border-width: 0px;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    vertical-align: top;
+    padding: 3px;
+}
+
+user agent stylesheet
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.hist-txt {
+    font-size: 13pt;
+    line-height: 15pt;
+    vertical-align: top;
+    padding-right: 45px;
+}
+
+.rera16 {
+    width: 160px;
+    border-left: #666666 solid thin;
+    padding-left: 5px;
+    background-color: #F9F9F9;
+}
+.img{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+iframe{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+	left: 0;
+	border-radius: 3px 0 0 3px;
+  }
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+a:hover {
+    color: red;
+}
+
+.background-image img {
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.title{
+    color : linear-gradient(to right, red, black, green);
+    
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.center{
+    margin: auto;
+
+}
+.dividor{
+    margin: auto;
+    background-color: darkgreen;
+    height: 3px;
+    max-width: 100%;
+}
+.travel-container h2 {
+    font-size: 50px;
+    text-align: center;
+    max-width: 100%;
+    color: darkred;
+}
+.travel-img{
+    width: 100%;
+    float: right;
+    padding: 40px;
+}
+.travel-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.travel-container p{
+    max-width: 50%;
+}
